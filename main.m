@@ -43,6 +43,7 @@ int main(int argc, const char * argv[]) {
             //NSLog(@"answers:%ld",ANS);
             NSInteger inputNum = [Userkeyin integerValue];
             NSDate *end = [aq endTime];
+            NSTimeInterval userAnswerTime = [aq answerTime];
             if (inputNum == ANS) {
                 NSLog(@"Right!");
                 [scores doRight];
@@ -55,6 +56,7 @@ int main(int argc, const char * argv[]) {
             [scores score];
             NSLog(@"%@",start);
             NSLog(@"%@",end);
+            NSLog(@"%f",userAnswerTime);
   
            
             }
