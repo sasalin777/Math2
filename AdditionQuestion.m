@@ -26,10 +26,9 @@
 - (NSInteger)answer {
  
  _endTime = [NSDate date];
-  
  _answerTime = [_endTime timeIntervalSinceDate:_startTime ];
    
-     return _answer;
+  return _answer;
  }
 
 

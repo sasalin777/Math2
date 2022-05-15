@@ -16,10 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,readonly) NSDate *endTime;
 @property(nonatomic,readwrite) NSTimeInterval answerTime;
 
-
 @end
-
-
-//- (NSTimeInterval)timeIntervalSinceDate:answerTime;
 
 NS_ASSUME_NONNULL_END
